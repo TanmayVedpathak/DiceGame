@@ -45,6 +45,7 @@ body {
 
 .dice-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -52,7 +53,6 @@ body {
 
 .dice {
   text-align: center;
-  /* display: inline-block; */
   padding: 20px;
   box-shadow: 0px 0px 5px 5px var(--shadow);
   border-radius: 20px;
@@ -132,6 +132,15 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
+
+@media screen and (max-width: 1120px) {
+  #score {
+    position: static;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 900px) {}
 
 @media screen and (max-width: 850px) {
   h1 {
