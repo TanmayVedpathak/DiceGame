@@ -20,22 +20,25 @@
         <i class="far fa-sun"></i></button
       ><br />
 
-      <h1 id="heading">🎲 Lets play 🎲</h1>
-      <h2>Go!</h2>
+      <h1 id="heading">🎲 Dice Roll 🎲</h1>
+      <!-- <h2>Go!</h2> -->
       <h3><span id="ply1">0</span> - <span id="ply2">0</span></h3>
 
-      <div class="dice">
-        <p>Player 1</p>
-        <img id="img1" src="images/square-256.png" />
-      </div>
+      <div class="dice-container">
+        <div class="dice">
+          <p>Player 1</p>
+          <img id="img1" src="images/square-256.png" />
+        </div>
 
-      <div class="dice">
-        <p>Player 2</p>
-        <img id="img2" src="images/square-256.png" />
+        <div class="dice">
+          <p>Player 2</p>
+          <img id="img2" src="images/square-256.png" />
+        </div>
       </div>
       <br />
-      <button type="button" onclick="random()">Play</button>
-      <button type="button" onclick="refreshPage()">Restart</button><br />
+      <button type="button" onclick="random()"><p>Play</p></button>
+      <button type="button" onclick="refreshPage()"><p>Restart</p></button
+      ><br />
 
       <div id="score">LEADER BOARD</div>
 
@@ -45,7 +48,7 @@
     <footer>www 🎲 App Brewery 🎲 com</footer>
 
     <script
-      src="https://kit.fontawesome.com/2779aab842.js"
+      src="https://kit.fontawesome.com/f543c45c17.js"
       crossorigin="anonymous"
     ></script>
     <script src="script.js"></script>
